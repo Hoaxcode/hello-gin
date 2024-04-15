@@ -11,7 +11,7 @@ const port = ":8080"
 
 /*
 The function sends a JSON response
-with a status code of 200 (http.StatusOK) with a body of "message": "test successful".
+with a status code of 200 (http.StatusOK) with a body of "message": "Success".
 
 	router.GET("/", func (c *gin.Context) {
 		c.JSON(200, gin.H{
